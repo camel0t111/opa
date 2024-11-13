@@ -1,0 +1,154 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <link rel="preconnect" href="https://fonts.googleapis.com"> 
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+ <title>Document</title> 
+</head> 
+<body> 
+ <style> 
+  body { 
+   background-color: #f5f5f5; 
+  } 
+ .red, .orange, .blue, .green { 
+  width: 330px; 
+  height: 550px; 
+  border: 0 solid black; 
+  border-radius: 20px; 
+  box-shadow: 0px 0px 24px -4px; 
+ }   
+ main { 
+  font-family: montserrat; 
+  display: flex; 
+  justify-content: space-evenly; 
+  width: 1500px; 
+  margin: 50px auto; 
+ } 
+ h2 { 
+  text-transform: uppercase; 
+  text-align: center; 
+  margin-top: 40px; 
+ } 
+ hr { 
+  height: 4px; 
+  border: none; 
+ } 
+ p { 
+  padding: 0; 
+  margin: 0; 
+ } 
+ .red hr { 
+  background-color: #c73756; 
+ } 
+ .orange hr { 
+  background-color: #d7913b; 
+ } 
+ .blue hr { 
+  background-color: #2b6689; 
+ } 
+ .green hr { 
+  background-color: #63bb34; 
+ } 
+ .price { 
+  text-align: center; 
+  font-size: 55px; 
+  font-weight: 700; 
+  padding-top: 20px; 
+ } 
+ .permo { 
+  text-align: center; 
+  color: #d3d5da; 
+  font-size: 25px; 
+  font-weight: 700; 
+  padding-top: 10px; 
+ } 
+ .descrip { 
+  text-align: center; 
+  font-size: 20px; 
+  font-weight: 700; 
+  line-height: 50px; 
+  padding-top: 15px; 
+ } 
+  a { 
+  border: 0 solid black; 
+  text-align: center; 
+  padding: 17px 40px; 
+  margin-top: 25px; 
+  width: 70px; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 10px; 
+  font-size: 20px; 
+  color: #fff; 
+  background-color: #c73756; 
+  text-decoration: none;
+ } 
+ .redb { 
+  background-color: #c73756; 
+ } 
+ .orangeb { 
+  background-color: #d7913b; 
+ } 
+ .blueb { 
+  background-color: #2b6689; 
+ } 
+ .greenb { 
+  background-color: #63bb34; 
+ } 
+ .ce { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+ } 
+ 
+ .red, .orange, .blue, .green { 
+  transition: transform 1s ease; 
+  background-color: #fff; 
+ } 
+ 
+ .red:hover, .orange:hover, .blue:hover, .green:hover { 
+  transform: scale(1.1); 
+ }
+ 
+ </style> 
+ 
+ 
+ <main> 
+  <div class="red"> 
+   <h2>enterprise</h2> 
+   <hr> 
+   <p class="price">$69</p> 
+   <p class="permo">per month</p> 
+   <p class="descrip">10GB disk space<br>100GB monthly bandwith<br>20 email accounts<br>Unlimited subdomens</p> 
+   <div class="ce"><a href="#" class="redb">BUY</a></div> 
+  </div> 
+  <div class="orange"> 
+   <h2>professional</h2> 
+   <hr> 
+   <p class="price">$29</p> 
+   <p class="permo">per month</p> 
+   <p class="descrip">5GB disk space<br>60GB monthly bandwith<br>10 email accounts<br>Unlimited subdomens</p> 
+   <div class="ce"><a href="#" class="orangeb">BUY</a></div> 
+  </div> 
+  <div class="blue"> 
+   <h2>standart</h2> 
+   <hr> 
+   <p class="price">$19</p> 
+   <p class="permo">per month</p> 
+   <p class="descrip">3GB disk space<br>30GB monthly bandwith<br>5 email accounts<br>Unlimited subdomens</p> 
+   <div class="ce"><a href="#" class="blueb">BUY</a></div> 
+  </div> 
+  <div class="green"> 
+   <h2>basic</h2> 
+   <hr> 
+   <p class="price">$9</p> 
+   <p class="permo">per month</p> 
+   <p class="descrip">1GB disk space<br>1GB monthly bandwith<br>2 email accounts<br>Unlimited subdomens</p> 
+   <div class="ce"><a href="#" class="greenb">BUY</a></div> 
+  </div> 
+ </main> 
+</body> 
+</html>

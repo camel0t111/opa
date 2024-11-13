@@ -1,0 +1,101 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f6f6f6;
+	font-size: 120%;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.line {
+	background-color: #8a8a8a;
+	height: 100%;
+	width: 27%;
+	transition: width 0.5s ease;
+}
+
+.sidebar:hover .line {
+	width: 65%;
+}
+
+.menuBar {
+	top: 0;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	height: 70%;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1vw;
+	width: 65%;
+	z-index: 2;
+}
+
+.menuTxt {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	margin-left: 10%;
+}
+
+.sidebar:hover .menuTxt {
+	opacity: 1;
+}
+
+.zi1, .zi2, .zi3, .zi4, .zi5 {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	padding: 5% 0% 5% 10%;
+}
+
+.zi1:hover, .zi2:hover, .zi3:hover, .zi4:hover, .zi5:hover {
+	background-color: #696969;
+}
+
+img {
+	height: 100%;
+	width: 20%;
+}
+
+main {
+	margin-left: 10%;
+	width: 90%;
+}
+
+.text {
+	width: 80%;
+}
+
+.insBar {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+span {
+	padding-left: 8%;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.text {
+	width: 100%;
+}
